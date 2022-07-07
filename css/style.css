@@ -11,3 +11,8 @@ body{
 
     background-color: #F7F8FD;
 }
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
