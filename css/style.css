@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@700&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     outline: 0;
+    border: 0;
 }
 
 html,
@@ -16,7 +18,7 @@ body{
 header{
     background-color:#F7F8FD;
 
-    margin-top: 46px;
+    padding-top: 46px;
 }
 
 header .container{
@@ -72,9 +74,65 @@ header button{
     background: #03045E;
     color: #FFF;
     border-radius: 5px;
-    border: 0;
 }
 
 header button:hover{
     cursor: pointer;
+}
+
+main{    
+    width: 90%;
+    max-width: 980px;
+
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 15%;
+}
+
+.content h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 50px;
+    
+    color: #03045E;
+}
+
+.content p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    padding-top: 25px;
+
+    color: rgba(3, 4, 94, 0.5);
+}
+
+.content button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 38px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+
+    background: #0098FF;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.image img {
+    position: absolute;
+    width: 500px;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
 }
